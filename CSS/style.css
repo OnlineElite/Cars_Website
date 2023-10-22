@@ -1,0 +1,222 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+body{
+    font-family: 'Cairo', sans-serif;
+}*/
+/*---Start header---*/
+.header{
+    background-color: rgb(37, 135, 226);
+    height:50px;
+    line-height: 50px;
+    color: white;
+
+}
+.header a{
+    float: right;
+    margin-top: 5px;
+}
+
+/*---End header---*/
+
+/*----Start navbar----*/
+nav{
+    background-color: rgb(3, 3, 49);
+}
+.dropdown-menu{
+    background-color: rgb(3, 3, 49);
+    color: rgb(210, 255, 8);
+    font-weight: bolder;
+  /*  border:solid px white ;*/
+}
+.dropdown-item{
+    color: white;
+    font-weight:bold;
+}
+/*---End navbar---*/
+
+/*---Strat slide---*/
+.pslid{
+    font-size: 18px;
+    font-weight:bolder;
+    /*background-color: rgb(8, 8, 109);*/
+    display: inline-block;
+    padding: 3px;
+}
+.carousel-item h3{
+    color:yellow;
+   /* background-color: yellow; */
+    display: inline-block;
+    padding: 2px;
+}
+.carousel-indicators li{
+    height: 7px;
+    width: 80px;
+    background-color: yellow;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(39, 1, 255, 0.13);
+    z-index: 1;
+}
+/*---End slide---*/
+
+/*---Start Feutures---*/
+.feutures{
+    margin-top: 50px;
+}
+.feutures p{
+    color: rgb(105, 102, 102);
+    line-height: 1.8;
+    margin-top: 5px;
+}
+.feutures h3{
+    
+    margin-top: 5px;
+}
+
+.back{
+    background-color: rgb(4, 0, 255);
+    height: 100px;
+    width: 100px;
+    padding-top:25px;
+    display: inline-block;
+}
+/*---End Feutures---*/
+/*---Start our team---*/
+.our-team{
+    background-color: rgb(202, 198, 198);
+    padding: 20px;
+    border-bottom: 2px solid rgb(11, 112, 228);
+}
+
+/*---End our team---*/
+
+/*---Start statistics---*/
+.statistics{
+    margin-top: 30px;
+    width: 100%;
+    background-image: url('../Images/Untitled-1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.statistics .ouverlay{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.288);
+    background-size: cover;
+
+}
+.statistics h4{
+    color: white;
+}
+.statistics p{
+    color: white;
+    font-size: 75px;
+}
+/*---End statistics---*/
+
+/*---Start our_customers  ---*/
+.our_customers{
+    background-color: rgb(214, 212, 212);
+    line-height: 120px;
+    margin-top: 30px;
+    border-bottom: 2px solid rgb(11, 112, 228);
+}
+.our_customers img{
+    width: 60px;
+}
+/*---End our_customers---*/
+
+/*---Strat recent news  ---*/
+.recent_news{
+    margin-top: 25px;
+}
+.recent_news .btn-danger{
+    background-color: blue;
+    border-color: blue;
+}
+.recent_news .btn-danger:hover{
+    background-color: rgb(8, 180, 8);
+    border-color: rgb(8, 180, 8);
+}
+/*---End recent news  ---*/
+/*---start footer---*/
+footer{
+    background-color: rgb(82, 182, 185);
+    padding: 10px;
+    color: white;
+    margin-top: 30px;
+    
+}
+footer ul li{
+    list-style: none;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: black;
+}
+/*---End footer---*/
+/**********************************blog page style *************************************/
+/*--Start page name--*/
+.breadcrumb{
+    background-color: rgb(82, 182, 185);
+
+
+}
+/*--End page name--*/
+
+/*--Start blogs--*/
+.jumbotron{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.jumbotron .blog_info{
+    flex: 1.8;
+}
+.jumbotron .blog_image{
+    flex: 1;
+}
+/*--End blogs--*/
+
+/*--Start pagination--*/
+.blogs .container nav{
+    background-color: white;
+}
+/*--End pagination--*/
+/*******************************************Blog_details***************************************/
+/*-----Strat blog_details-----*/
+.blog_details p{
+    line-height: 2;
+    padding: 10px;
+}
+/*-----End blog_details-----*/
+
+.contact .card{
+    background-color: rgb(182, 240, 235);
+}
+/*******************************************Courses***************************************/
+
+/*-----Start courses-----*/
+.courses h5{
+    color: black;
+}
+.courses h5:hover{
+    color: rgb(57, 6, 238);
+}
+.courses img:hover{
+    transform: scale(1.1);
+    transition-duration: 3ms;
+}
+.courses .card-img-top{
+    height: 240px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/*-----End courses-----*/
