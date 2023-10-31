@@ -96,7 +96,7 @@ nav{
 .statistics{
     margin-top: 30px;
     width: 100%;
-    background-image: url('../Images/Untitled-1.jpg');
+    background-image: url('./media/Untitled-1.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
